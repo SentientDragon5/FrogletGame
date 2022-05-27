@@ -82,7 +82,7 @@ void createPlatforms(String filename){
         s = new Coin(anim, 4, 5);
         
       }
-      else if(i==17 || i==8 || i==9 || i==10 || i==19 || i==25 || i==0)
+      else if(i==17 || i==8 || i==9 || i==10 || i==19 || i==25)
       {//FlipV anim
         PImage[] anim = new PImage[2];
         anim[0] = loadImage(filePath + i + ".png");
